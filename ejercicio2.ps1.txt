@@ -1,0 +1,4 @@
+$horas = [int](Read-Host "Por favor ingrese sus horas trabajadas")
+$coste = [int](Read-Host "Por favor ingrese su coste por hora trabajada")
+$paga = $horas * $coste
+Write-Host "La paga que le corresponde es de: $paga"
